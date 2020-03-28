@@ -1,0 +1,21 @@
+ 
+class Person {
+    constructor(name, age) {
+        this._name = name;
+        this._age = age;
+    }
+
+    tellMyName() {
+        console.log(`I am ${this._name}`);
+    }
+
+    tellMyAge() {
+        console.log(`I am ${this._age} years old`);
+    }
+}
+
+person1 = new Person("John", 35)
+person2 = new Person("Mary", 40)
+
+person1.tellMyName();
+person1.tellMyAge();

@@ -4,12 +4,10 @@ class Person {
         this._name = name;
         this._age = age;
     }
-
-    tellMyName() {
+tellMyName() {
         console.log(`I am ${this._name}`);
     }
-
-    tellMyAge() {
+tellMyAge() {
         console.log(`I am ${this._age} years old`);
     }
 }

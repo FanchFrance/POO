@@ -17,3 +17,5 @@ person2 = new Person("Mary", 40)
 
 person1.tellMyName();
 person1.tellMyAge();
+person2.tellMyName();
+person2.tellMyAge();
